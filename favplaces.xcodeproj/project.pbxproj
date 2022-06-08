@@ -9,9 +9,30 @@
 /* Begin PBXBuildFile section */
 		5EAEAB0028512EA40029F5DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAAFF28512EA40029F5DF /* AppDelegate.swift */; };
 		5EAEAB0228512EA40029F5DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB0128512EA40029F5DF /* SceneDelegate.swift */; };
-		5EAEAB0428512EA40029F5DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB0328512EA40029F5DF /* ViewController.swift */; };
 		5EAEAB0928512EA60029F5DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EAEAB0828512EA60029F5DF /* Assets.xcassets */; };
 		5EAEAB0C28512EA60029F5DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAEAB0A28512EA60029F5DF /* LaunchScreen.storyboard */; };
+		5EAEAB1B28513C7C0029F5DF /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB1A28513C7C0029F5DF /* Repository.swift */; };
+		5EAEAB1E28513C9F0029F5DF /* DBObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB1D28513C9F0029F5DF /* DBObject.swift */; };
+		5EAEAB2428513D070029F5DF /* MainScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB2328513D070029F5DF /* MainScreenModel.swift */; };
+		5EAEAB2628513D150029F5DF /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB2528513D150029F5DF /* MainScreenViewModel.swift */; };
+		5EAEAB2828513D2F0029F5DF /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB2728513D2F0029F5DF /* MainScreenViewController.swift */; };
+		5EAEAB2C28513D6C0029F5DF /* MainScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB2B28513D6C0029F5DF /* MainScreenTableViewCell.swift */; };
+		5EAEAB2E28513D830029F5DF /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB2D28513D830029F5DF /* MainScreenView.swift */; };
+		5EAEAB3128513E000029F5DF /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB3028513E000029F5DF /* PlaceView.swift */; };
+		5EAEAB3328513E240029F5DF /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB3228513E240029F5DF /* PlaceModel.swift */; };
+		5EAEAB3528513E2F0029F5DF /* PlaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB3428513E2F0029F5DF /* PlaceViewModel.swift */; };
+		5EAEAB3728513E3E0029F5DF /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB3628513E3E0029F5DF /* PlaceViewController.swift */; };
+		5EAEAB3928513E550029F5DF /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB3828513E540029F5DF /* RatingControl.swift */; };
+		5EAEAB3C28513EEC0029F5DF /* MapScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB3B28513EEC0029F5DF /* MapScreenView.swift */; };
+		5EAEAB3E28513F160029F5DF /* MapScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB3D28513F160029F5DF /* MapScreenModel.swift */; };
+		5EAEAB4028513F300029F5DF /* MapScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB3F28513F300029F5DF /* MapScreenViewModel.swift */; };
+		5EAEAB4228513F410029F5DF /* MapScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB4128513F410029F5DF /* MapScreenViewController.swift */; };
+		5EAEAB4428513F9C0029F5DF /* FilterSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB4328513F9C0029F5DF /* FilterSettingsViewController.swift */; };
+		5EAEAB4628513FD70029F5DF /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB4528513FD70029F5DF /* RealmManager.swift */; };
+		5EAEAB4828513FFA0029F5DF /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB4728513FFA0029F5DF /* MapManager.swift */; };
+		5EAEAB4A285140320029F5DF /* UIStackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB49285140320029F5DF /* UIStackView + Extension.swift */; };
+		5EAEAB4C2851404C0029F5DF /* PlaceViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB4B2851404C0029F5DF /* PlaceViewController + Extension.swift */; };
+		5EAEAB4E2851406E0029F5DF /* MainScreenViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEAB4D2851406E0029F5DF /* MainScreenViewController + Extension.swift */; };
 		DF6A610FC5FEBDB01C78BDB5 /* Pods_favplaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1B4640FC4F6982B08988DA /* Pods_favplaces.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,10 +42,31 @@
 		5EAEAAFC28512EA40029F5DF /* favplaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = favplaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAEAAFF28512EA40029F5DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EAEAB0128512EA40029F5DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5EAEAB0328512EA40029F5DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5EAEAB0828512EA60029F5DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EAEAB0B28512EA60029F5DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EAEAB0D28512EA60029F5DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EAEAB1A28513C7C0029F5DF /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		5EAEAB1D28513C9F0029F5DF /* DBObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBObject.swift; sourceTree = "<group>"; };
+		5EAEAB2328513D070029F5DF /* MainScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenModel.swift; sourceTree = "<group>"; };
+		5EAEAB2528513D150029F5DF /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		5EAEAB2728513D2F0029F5DF /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		5EAEAB2B28513D6C0029F5DF /* MainScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenTableViewCell.swift; sourceTree = "<group>"; };
+		5EAEAB2D28513D830029F5DF /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		5EAEAB3028513E000029F5DF /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		5EAEAB3228513E240029F5DF /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		5EAEAB3428513E2F0029F5DF /* PlaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewModel.swift; sourceTree = "<group>"; };
+		5EAEAB3628513E3E0029F5DF /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		5EAEAB3828513E540029F5DF /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		5EAEAB3B28513EEC0029F5DF /* MapScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenView.swift; sourceTree = "<group>"; };
+		5EAEAB3D28513F160029F5DF /* MapScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenModel.swift; sourceTree = "<group>"; };
+		5EAEAB3F28513F300029F5DF /* MapScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenViewModel.swift; sourceTree = "<group>"; };
+		5EAEAB4128513F410029F5DF /* MapScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenViewController.swift; sourceTree = "<group>"; };
+		5EAEAB4328513F9C0029F5DF /* FilterSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSettingsViewController.swift; sourceTree = "<group>"; };
+		5EAEAB4528513FD70029F5DF /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		5EAEAB4728513FFA0029F5DF /* MapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapManager.swift; sourceTree = "<group>"; };
+		5EAEAB49285140320029F5DF /* UIStackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extension.swift"; sourceTree = "<group>"; };
+		5EAEAB4B2851404C0029F5DF /* PlaceViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaceViewController + Extension.swift"; sourceTree = "<group>"; };
+		5EAEAB4D2851406E0029F5DF /* MainScreenViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainScreenViewController + Extension.swift"; sourceTree = "<group>"; };
 		77CDF24A47ADF4E2D0FBACC8 /* Pods-favplaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-favplaces.release.xcconfig"; path = "Target Support Files/Pods-favplaces/Pods-favplaces.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,7 +88,6 @@
 				5D28975974787722CC575B5C /* Pods-favplaces.debug.xcconfig */,
 				77CDF24A47ADF4E2D0FBACC8 /* Pods-favplaces.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -71,14 +112,155 @@
 		5EAEAAFE28512EA40029F5DF /* favplaces */ = {
 			isa = PBXGroup;
 			children = (
-				5EAEAAFF28512EA40029F5DF /* AppDelegate.swift */,
-				5EAEAB0128512EA40029F5DF /* SceneDelegate.swift */,
-				5EAEAB0328512EA40029F5DF /* ViewController.swift */,
-				5EAEAB0828512EA60029F5DF /* Assets.xcassets */,
-				5EAEAB0A28512EA60029F5DF /* LaunchScreen.storyboard */,
+				5EAEAB1328513BC30029F5DF /* Application */,
+				5EAEAB1628513BE60029F5DF /* Data */,
+				5EAEAB1728513BF20029F5DF /* Flows */,
+				5EAEAB1528513BDE0029F5DF /* Managers */,
+				5EAEAB1828513C040029F5DF /* Extensions */,
+				5EAEAB1928513C0D0029F5DF /* Resourses */,
 				5EAEAB0D28512EA60029F5DF /* Info.plist */,
 			);
 			path = favplaces;
+			sourceTree = "<group>";
+		};
+		5EAEAB1328513BC30029F5DF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5EAEAAFF28512EA40029F5DF /* AppDelegate.swift */,
+				5EAEAB0128512EA40029F5DF /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5EAEAB1528513BDE0029F5DF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5EAEAB4528513FD70029F5DF /* RealmManager.swift */,
+				5EAEAB4728513FFA0029F5DF /* MapManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		5EAEAB1628513BE60029F5DF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5EAEAB1C28513C8C0029F5DF /* Models */,
+				5EAEAB1A28513C7C0029F5DF /* Repository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5EAEAB1728513BF20029F5DF /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				5EAEAB1F28513CBC0029F5DF /* MainScreen */,
+				5EAEAB2028513CC60029F5DF /* PlaceScreen */,
+				5EAEAB2128513CCF0029F5DF /* MapScreen */,
+				5EAEAB2228513CD60029F5DF /* FilterSettingsScreen */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		5EAEAB1828513C040029F5DF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5EAEAB49285140320029F5DF /* UIStackView + Extension.swift */,
+				5EAEAB4B2851404C0029F5DF /* PlaceViewController + Extension.swift */,
+				5EAEAB4D2851406E0029F5DF /* MainScreenViewController + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5EAEAB1928513C0D0029F5DF /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				5EAEAB0828512EA60029F5DF /* Assets.xcassets */,
+				5EAEAB0A28512EA60029F5DF /* LaunchScreen.storyboard */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		5EAEAB1C28513C8C0029F5DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5EAEAB1D28513C9F0029F5DF /* DBObject.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5EAEAB1F28513CBC0029F5DF /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5EAEAB2928513D350029F5DF /* Cells */,
+				5EAEAB2A28513D4B0029F5DF /* Views */,
+				5EAEAB2328513D070029F5DF /* MainScreenModel.swift */,
+				5EAEAB2528513D150029F5DF /* MainScreenViewModel.swift */,
+				5EAEAB2728513D2F0029F5DF /* MainScreenViewController.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		5EAEAB2028513CC60029F5DF /* PlaceScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5EAEAB2F28513DEB0029F5DF /* Views */,
+				5EAEAB3228513E240029F5DF /* PlaceModel.swift */,
+				5EAEAB3428513E2F0029F5DF /* PlaceViewModel.swift */,
+				5EAEAB3628513E3E0029F5DF /* PlaceViewController.swift */,
+			);
+			path = PlaceScreen;
+			sourceTree = "<group>";
+		};
+		5EAEAB2128513CCF0029F5DF /* MapScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5EAEAB3A28513EC80029F5DF /* Views */,
+				5EAEAB3D28513F160029F5DF /* MapScreenModel.swift */,
+				5EAEAB3F28513F300029F5DF /* MapScreenViewModel.swift */,
+				5EAEAB4128513F410029F5DF /* MapScreenViewController.swift */,
+			);
+			path = MapScreen;
+			sourceTree = "<group>";
+		};
+		5EAEAB2228513CD60029F5DF /* FilterSettingsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5EAEAB4328513F9C0029F5DF /* FilterSettingsViewController.swift */,
+			);
+			path = FilterSettingsScreen;
+			sourceTree = "<group>";
+		};
+		5EAEAB2928513D350029F5DF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5EAEAB2B28513D6C0029F5DF /* MainScreenTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5EAEAB2A28513D4B0029F5DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5EAEAB2D28513D830029F5DF /* MainScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5EAEAB2F28513DEB0029F5DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5EAEAB3028513E000029F5DF /* PlaceView.swift */,
+				5EAEAB3828513E540029F5DF /* RatingControl.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5EAEAB3A28513EC80029F5DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5EAEAB3B28513EEC0029F5DF /* MapScreenView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		98FDF1483D8936B6F3D176D9 /* Frameworks */ = {
@@ -203,9 +385,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EAEAB0428512EA40029F5DF /* ViewController.swift in Sources */,
+				5EAEAB3928513E550029F5DF /* RatingControl.swift in Sources */,
+				5EAEAB2C28513D6C0029F5DF /* MainScreenTableViewCell.swift in Sources */,
 				5EAEAB0028512EA40029F5DF /* AppDelegate.swift in Sources */,
+				5EAEAB3128513E000029F5DF /* PlaceView.swift in Sources */,
+				5EAEAB4828513FFA0029F5DF /* MapManager.swift in Sources */,
 				5EAEAB0228512EA40029F5DF /* SceneDelegate.swift in Sources */,
+				5EAEAB4428513F9C0029F5DF /* FilterSettingsViewController.swift in Sources */,
+				5EAEAB4028513F300029F5DF /* MapScreenViewModel.swift in Sources */,
+				5EAEAB3528513E2F0029F5DF /* PlaceViewModel.swift in Sources */,
+				5EAEAB4E2851406E0029F5DF /* MainScreenViewController + Extension.swift in Sources */,
+				5EAEAB3C28513EEC0029F5DF /* MapScreenView.swift in Sources */,
+				5EAEAB2828513D2F0029F5DF /* MainScreenViewController.swift in Sources */,
+				5EAEAB2E28513D830029F5DF /* MainScreenView.swift in Sources */,
+				5EAEAB2428513D070029F5DF /* MainScreenModel.swift in Sources */,
+				5EAEAB3728513E3E0029F5DF /* PlaceViewController.swift in Sources */,
+				5EAEAB3328513E240029F5DF /* PlaceModel.swift in Sources */,
+				5EAEAB1E28513C9F0029F5DF /* DBObject.swift in Sources */,
+				5EAEAB1B28513C7C0029F5DF /* Repository.swift in Sources */,
+				5EAEAB4A285140320029F5DF /* UIStackView + Extension.swift in Sources */,
+				5EAEAB4C2851404C0029F5DF /* PlaceViewController + Extension.swift in Sources */,
+				5EAEAB3E28513F160029F5DF /* MapScreenModel.swift in Sources */,
+				5EAEAB4628513FD70029F5DF /* RealmManager.swift in Sources */,
+				5EAEAB2628513D150029F5DF /* MainScreenViewModel.swift in Sources */,
+				5EAEAB4228513F410029F5DF /* MapScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

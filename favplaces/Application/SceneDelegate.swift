@@ -15,7 +15,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        let navigationControl = UINavigationController(rootViewController: ViewController())
+        let repository = Repository()
+        
+        let mainScreenModel = MainScreenModel(repository: repository)
+        let mainScreenViewModel = MainScreenViewModel(model: mainScreenModel)
+        let mainScreenViewController = MainScreenViewController(viewModel: mainScreenViewModel)
+        
+        let navigationControl = UINavigationController(rootViewController: mainScreenViewController)
                 
         window = UIWindow(windowScene: windowScene)
         window?.rootViewController = navigationControl
@@ -23,4 +29,3 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.overrideUserInterfaceStyle = .light
     }
 }
-
