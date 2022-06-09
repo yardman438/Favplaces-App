@@ -2,7 +2,7 @@
 # OVERVIEW
 
 This is a project that I did while taking courses from Swiftbook.
-This app is for storing favorite places.
+This app is for storing favourite places.
 
 You can create a new place and then get directions to it on map.
 
